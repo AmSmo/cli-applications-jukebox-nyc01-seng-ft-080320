@@ -47,10 +47,10 @@ def run(songs)
   choice = gets.strip
   
   case choice
-    when "help" then help# ; run(songs)
-    when "list" then list(songs)# ; run(songs)
-    when "play" then play(songs)#; run(songs)
+    when "help" then help ; run(songs)
+    when "list" then list(songs) ; run(songs)
+    when "play" then play(songs); run(songs)
     when "exit" then exit_jukebox
-    else help#; run(songs)
+    else help; run(songs)
   end
 end
